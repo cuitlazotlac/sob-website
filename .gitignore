@@ -22,4 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-src/assets/clip_subaru.gif
+.src/assets/clip_subaru.gif
+debug.log
+clip_subaru.gif
