@@ -11,18 +11,7 @@ export default function Footer() {
             <div className="message-for-users">
               <span></span>
             </div>
-            <div className="social-links">
-              <div className="social-links-h">Social</div>
-              <div className="social-links-items">
-                <a href="https://discord.gg/QMwkyJdaAy">Discord</a>
-                <a href="https://twitter.com/OpinionDao">Twitter</a>
-                <a href="https://github.com/OpinionDAO">Github</a>
-                <a href="https://opinion-dao.gitbook.io/untitled/">
-                  Documentation
-                </a>
-              </div>
-            </div>
-            <div className="social-links">
+            {/* <div className="social-links">
               <div className="social-links-h"></div>
               <div className="social-links-items">
                 <a href="https://coinmarketcap.com/"></a>
@@ -39,10 +28,15 @@ export default function Footer() {
                 <p className="footer-menu-links-items"></p>
                 <p className="footer-menu-links-items"></p>
               </div>
-            </div>
+            </div> */}
             <div className="footer-btn">
-              <a href="https://coinmarketcap.com/" className="footer-btn-a">
-                Get Started!
+              <a
+                href="https://google.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-btn-a"
+              >
+                Spotify Page
               </a>
             </div>
           </div>
@@ -53,6 +47,18 @@ export default function Footer() {
         </div>
         <div className="bg-footer-ticker">
           <div className="footer-ticker">
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
+            <div className="footer-ticker-item">&nbsp; - Footer Item </div>
             <div className="footer-ticker-item">&nbsp; - Footer Item </div>
             <div className="footer-ticker-item">&nbsp; - Footer Item </div>
             <div className="footer-ticker-item">&nbsp; - Footer Item </div>
@@ -125,7 +131,7 @@ const FooterStyle = styled.div`
   }
   .footer a,
   .footer p {
-    color: #e0e0e0;
+    color: white;
     text-decoration: none;
     font-size: 15px;
     font-weight: lighter;
@@ -142,8 +148,8 @@ const FooterStyle = styled.div`
   .footer-btn {
     padding: 85px 50px;
     border: 1px dashed white;
-    border-radius: 50%;
-    margin: 20px;
+    border-radius: 90%;
+    margin: 10px;
   }
   .footer-bottom {
     display: flex;

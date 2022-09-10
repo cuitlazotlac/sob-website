@@ -43,145 +43,45 @@ export default function Home() {
           <div className="container1">
             <div className="txt-line" id="1">
               <img className="logo" src={logo} alt="" />
-              <p ref={(el) => (text1 = el)}>Opinion DAO</p>
             </div>
-            {/* <div className="txt-line-title line" id="2">
-              <p ref={(el) => (text2 = el)}>DAO</p>
-            </div> */}
           </div>
           <div className="logo-svg"></div>
         </div>
-        <div className="my-skills-main-reel">
-          <div className="left-side-quote">
-            <br />
-            <p ref={(el) => (p1 = el)}>
-              A decentralized organization aiming to provide quality reviews for
-              Web3 products
-            </p>
-          </div>
-        </div>
         <div className="my-social-main-reel">
           <div className="social-set-boxes">
-            <a
-              href="https://discord.gg/QMwkyJdaAy"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
               <div className="social-set-box">
-                <h1 className="social-set-box-h1">DISCORD</h1>
+                <h1 className="social-set-box-h1">YOUTUBE</h1>
                 <p className="social-set-box-p">
-                  Go join our Discord Server to start your journey within the
-                  community{" "}
+                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim.
                 </p>
-                <p>___</p>
+                {/* <p>___</p> */}
               </div>
             </a>
-            <a
-              href="https://twitter.com/OpinionDao"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
               <div className="social-set-box">
-                <h1 className="social-set-box-h1">TWITTER</h1>
+                <h1 className="social-set-box-h1">SPOTIFY</h1>
                 <p className="social-set-box-p">
-                  Follow us on Twitter to be aware about our last news and
-                  releases{" "}
+                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim.
                 </p>
-                <p>___</p>
+                {/* <p>___</p> */}
               </div>
             </a>{" "}
-            <a
-              href="https://twitter.com/OpinionDao"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://google.com/" target="_blank" rel="noreferrer">
               <div className="social-set-box">
-                <h1 className="social-set-box-h1">WHITEPAPER</h1>
-                <p className="social-set-box-p">The CODEX. </p>
-                <p>___</p>
+                <h1 className="social-set-box-h1">SOUNDCLOUD</h1>
+                <p className="social-set-box-p">
+                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim.
+                </p>
+                {/* <p>___</p> */}
               </div>
             </a>{" "}
-            <a
-              href="https://github.com/OpinionDAO"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="social-set-box">
-                <h1 className="social-set-box-h1">GITHUB</h1>
-                <p className="social-set-box-p">
-                  Check out what we are building and go fork to participate
-                </p>
-                <p>___</p>
-              </div>
-            </a>
           </div>
         </div>
-        {/* <div className="short-about">
-          <div className="main-h1-short-about">
-            <h1 className="main-short-about">What is</h1>
-            <h1 className="main-short-about">OpinionDAO ?</h1>
-            <p>
-              The goal of this DAO is to help the public get access to review of
-              quality.
-            </p>
-            <p>
-              Our community gathers and votes together for valuable reviews on
-              Web3 products and tools.
-            </p>
-            <p>
-              Our community is aiming to provide and raise quality content and
-              help Web3 to gain more traction and attractivity.
-            </p>
-          </div>
-          <div className="sub-main-p-short-about"></div>
-        </div> */}
         <div className="my-skills-main-reel">
-          {/* <div className="skill-set-boxes">
-            <div className="skill-set-box">
-              <h1 className="skill-set-box-h1">Catch1</h1>
-              <p className="skill-set-box-p">
-                Ad nostrud pariatur ea est labore duis ipsum nostrud irure.{" "}
-              </p>
-              <p>___</p>
-            </div>
-            <div className="skill-set-box">
-              <h1 className="skill-set-box-h1">Catch2</h1>
-              <p className="skill-set-box-p">
-                Ad nostrud pariatur ea est labore duis ipsum nostrud irure.{" "}
-              </p>
-              <p>___</p>
-            </div>
-            <div className="skill-set-box">
-              <h1 className="skill-set-box-h1">Catch3</h1>
-              <p className="skill-set-box-p">
-                Ad nostrud pariatur ea est labore duis ipsum nostrud irure.
-              </p>
-              <p>___</p>
-            </div>
-            <div className="skill-set-box">
-              <h1 className="skill-set-box-h1">Catch4</h1>
-              <p className="skill-set-box-p">
-                Ad nostrud pariatur ea est labore duis ipsum nostrud irure.
-              </p>
-              <p>___</p>
-            </div>
-            <div className="skill-set-box">
-              <h1 className="skill-set-box-h1">Catch5</h1>
-              <p className="skill-set-box-p">
-                Ad nostrud pariatur ea est labore duis ipsum nostrud irure.{" "}
-              </p>
-              <p>___</p>
-            </div>
-          </div> */}
-          {/* <div className="project-and-work">
-            <h1>
-              <Link className="h1-project" to="/reviews">
-                Our projects and what we build <img src={logo} alt="" />
-              </Link>
-            </h1>
-            <br />
-            <p></p>
-          </div> */}
           <Footer />
         </div>
       </div>
@@ -402,10 +302,11 @@ const HomeStyle = styled.div`
   }
 
   .skill-set-box {
+    position: relative;
     margin: 15px 10px;
     display: flex;
-    width: 350px;
-    height: 200px;
+    width: 320px;
+    height: 170px;
     color: #e6e6e6;
     flex-direction: column;
     border: 1px solid var(--white);
@@ -442,6 +343,7 @@ const HomeStyle = styled.div`
     overflow: hidden;
   }
   .social-set-boxes {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;

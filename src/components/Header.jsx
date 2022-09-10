@@ -83,6 +83,7 @@ const HeaderStyle = styled.div`
     transition: 0.6s ease-in-out;
   }
   #logo {
+    position: relative;
     font-size: 1.2vw;
     transition: 0.6s ease-in-out;
     font-weight: bold;

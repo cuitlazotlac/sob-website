@@ -18,27 +18,19 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  content: "";
-  /* opacity: 1; */
-  opacity: 0.03;
-  z-index: 1500;
-  pointer-events: none;
-  /* background: url(./assets/noise.gif); */
-  /* background: url(./Assets/another.svg); */
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  content: "";
+  opacity: 0.3;
+  pointer-events: none;
+  background: url(./assets/sobsubaru.gif);
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
+  position: relative;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
@@ -101,8 +93,7 @@ body {
 
 .cursor-follower {
   position: absolute;
-  /* background: url(Assets/Red_asterisk.svg) no-repeat 50% 50%; */
-  background: url(assets/logo.png) no-repeat 100% 100%;
+  /* background: url(assets/noise.gif) no-repeat 100% 100%; */
   background-size: cover;
   height: 40px;
   width: 40px;
@@ -139,7 +130,6 @@ body {
   width: 100%;
   height: 100vh;
   z-index: 1200;
-  background-color: black;
 }
 .progress {
   margin: 0;
