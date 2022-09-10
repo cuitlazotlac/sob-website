@@ -93,8 +93,7 @@ body {
 
 .cursor-follower {
   position: absolute;
-  background: url(assets/noise.gif) no-repeat 100% 100%;
-  /* background: url(assets/clip_subaru.gif) no-repeat 100% 100%; */
+  /* background: url(assets/noise.gif) no-repeat 100% 100%; */
   background-size: cover;
   height: 40px;
   width: 40px;
