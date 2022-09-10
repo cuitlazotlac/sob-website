@@ -102,11 +102,11 @@ function App() {
     <div>
       <Router>
         <div className="noise"></div>
-        <video autoplay muted loop id="myVideo">
+        {/* <video autoplay muted loop id="myVideo">
           <source src="../assets/clip_subaru.mp4" type="video/mp4" />
-        </video>
+        </video> */}
         <div className="App">
-          <div className="loader" ref={(el) => (loader = el)}>
+          {/* <div className="loader" ref={(el) => (loader = el)}>
             <div className="progress" ref={(el) => (progress = el)}>
               <div id="percent" ref={(el) => (percent = el)}>
                 1%
@@ -115,7 +115,7 @@ function App() {
                 <div id="barc" ref={(el) => (barc = el)}></div>
               </div>
             </div>
-          </div>
+          </div> */}
           <ScrollToTop />
           <Switch>
             <Route path="/" exact>
