@@ -38,14 +38,14 @@ export default function Home() {
   return (
     <HomeStyle>
       <div className="home">
-        <Header timeline={timeline_home} />
+        {/* <Header timeline={timeline_home} /> */}
         <div className="container">
           <div className="container1">
             <div className="txt-line" id="1">
               <img className="logo" src={logo} alt="" />
             </div>
           </div>
-          <div className="logo-svg"></div>
+          {/* <div className="logo-svg"></div> */}
         </div>
         <div className="my-social-main-reel">
           <div className="social-set-boxes">
@@ -119,6 +119,7 @@ const HomeStyle = styled.div`
     overflow: hidden;
   }
   .logo {
+    position: relative;
     padding-top: 100px;
   }
   .image_desc {
