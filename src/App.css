@@ -1,7 +1,8 @@
 html,
 body {
   height: 0;
-  font-family: "Roboto Mono", sans-serif;
+  /* font-family: "Roboto Mono", sans-serif; */
+  font-family: "Kanit", sans-serif;
 }
 body {
   background-color: rgba(0, 0, 0, 0.944);

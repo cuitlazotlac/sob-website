@@ -6,7 +6,7 @@ import gsap from "gsap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 
 export default function Home() {
   let text1 = useRef(null);
@@ -96,7 +96,8 @@ const HomeStyle = styled.div`
     justify-content: space-between;
     height: 50vh;
     width: 100%;
-    margin-top: -80px;
+    margin-top: -70px;
+    /* margin-bottom: -45px; */
   }
   .container1 {
     font-weight: 700;
@@ -113,7 +114,8 @@ const HomeStyle = styled.div`
     justify-content: space-between;
     /* height: 50vh; */
     width: 100%;
-    margin-top: -80px;
+    margin-top: -70px;
+    margin-bottom: 15px;
   }
   .txt-line {
     overflow: hidden;
@@ -121,6 +123,7 @@ const HomeStyle = styled.div`
   .logo {
     position: relative;
     padding-top: 100px;
+    max-height: 60%;
   }
   .image_desc {
     padding-top: 50px;
@@ -130,7 +133,6 @@ const HomeStyle = styled.div`
     font-size: 130px;
     text-transform: capitalize;
     /* letter-spacing: -4px; */
-    /* font-family: "Ogg"; */
     overflow: hidden;
     height: 100%;
     /* line-height: 90%; */
@@ -142,13 +144,12 @@ const HomeStyle = styled.div`
     font-size: 130px;
     text-transform: capitalize;
     /* letter-spacing: -4px; */
-    /* font-family: "Ogg"; */
     overflow: hidden;
     height: 100%;
     /* line-height: 90%; */
     font-weight: 900;
     background-color: white;
-    background-image: linear-gradient(45deg, #233a4e, #9c6db0);
+    /* background-image: linear-gradient(45deg, #233a4e, #9c6db0); */
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -248,8 +249,7 @@ const HomeStyle = styled.div`
       transform-style: preserve-3d;
       transition: all 0.2s ease-in-out;
       box-shadow: 5px 10px var(--shadow-color);
-
-      background-image: linear-gradient(45deg, #233a4e, #9c6db0);
+      /* background-image: linear-gradient(45deg, #233a4e, #9c6db0); */
       background-size: 100%;
       background-repeat: repeat;
     }
@@ -371,7 +371,7 @@ const HomeStyle = styled.div`
     color: #161616;
     background-color: #f0f0f0;
     border: 1px solid var(--white);
-    background-image: linear-gradient(45deg, #233a4e, #9c6db0);
+    /* background-image: linear-gradient(45deg, #233a4e, #9c6db0); */
     background-size: 100%;
     background-repeat: repeat;
   }

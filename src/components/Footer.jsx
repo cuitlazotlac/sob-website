@@ -191,8 +191,8 @@ const FooterStyle = styled.div`
   .footer-ticker-item {
     font-weight: light;
     color: black;
-    font-family: "Roboto Mono";
-    font-size: 12px;
+    font-family: "Kanit", sans-serif;
+    font-size: 13px;
     text-transform: uppercase;
   }
 
