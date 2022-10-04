@@ -6,7 +6,7 @@ import gsap from "gsap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 
 export default function Home() {
   let text1 = useRef(null);
@@ -462,6 +462,10 @@ const HomeStyle = styled.div`
     }
   }
   @media (max-width: 600px) {
+    .logo {
+      max-width: 50%;
+      position: relative;
+    }
     .image_desc {
       /* max-width: 70%; */
     }
