@@ -31,7 +31,7 @@ export default function Footer() {
             </div> */}
             <div className="footer-btn">
               <a
-                href="https://google.com/"
+                href="https://open.spotify.com/artist/1gXVG8KPMDjoxqcmmCWqCN"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-btn-a"
