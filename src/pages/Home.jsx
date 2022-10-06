@@ -49,32 +49,47 @@ export default function Home() {
         </div>
         <div className="my-social-main-reel">
           <div className="social-set-boxes">
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.youtube.com/channel/UCFQchEskW2IAgPj6LHW4Waw"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="social-set-box">
                 <h1 className="social-set-box-h1">YOUTUBE</h1>
                 <p className="social-set-box-p">
-                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
-                  occaecat occaecat commodo minim.
+                  {/* Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim. */}
+                  ___
                 </p>
                 {/* <p>___</p> */}
               </div>
             </a>
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://music.apple.com/us/artist/sob/1559195046"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="social-set-box">
-                <h1 className="social-set-box-h1">SPOTIFY</h1>
+                <h1 className="social-set-box-h1">APPLE MUSIC</h1>
                 <p className="social-set-box-p">
-                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
-                  occaecat occaecat commodo minim.
+                  {/* Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim. */}
+                  ___
                 </p>
                 {/* <p>___</p> */}
               </div>
             </a>{" "}
-            <a href="https://google.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.deezer.com/fr/artist/128151872"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="social-set-box">
-                <h1 className="social-set-box-h1">SOUNDCLOUD</h1>
+                <h1 className="social-set-box-h1">DEEZER</h1>
                 <p className="social-set-box-p">
-                  Ut incididunt adipisicing nulla veniam sint dolor amet veniam
-                  occaecat occaecat commodo minim.
+                  {/* Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim. */}
+                  ___
                 </p>
                 {/* <p>___</p> */}
               </div>
