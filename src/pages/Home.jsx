@@ -50,6 +50,21 @@ export default function Home() {
         <div className="my-social-main-reel">
           <div className="social-set-boxes">
             <a
+              href="https://www.instagram.com/sob_75019/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="social-set-box">
+                <h1 className="social-set-box-h1">INSTAGRAM</h1>
+                <p className="social-set-box-p">
+                  {/* Ut incididunt adipisicing nulla veniam sint dolor amet veniam
+                  occaecat occaecat commodo minim. */}
+                  ___
+                </p>
+                {/* <p>___</p> */}
+              </div>
+            </a>
+            <a
               href="https://www.youtube.com/channel/UCFQchEskW2IAgPj6LHW4Waw"
               target="_blank"
               rel="noreferrer"
@@ -319,7 +334,7 @@ const HomeStyle = styled.div`
 
   .skill-set-box {
     position: relative;
-    margin: 15px 10px;
+    /* margin: 15px 10px; */
     display: flex;
     width: 320px;
     height: 170px;
@@ -373,10 +388,10 @@ const HomeStyle = styled.div`
     margin: 15px 10px;
     display: flex;
     width: 350px;
-    height: 200px;
+    height: 170px;
     color: #e6e6e6;
     flex-direction: column;
-    border: 1px solid var(--white);
+    /* border: 0.1px solid #f0f0f0; */
     transition: color 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     transition: background-color 1s cubic-bezier(0.16, 1, 0.3, 1);
     transition: border 0.8s cubic-bezier(0.16, 1, 0.3, 1);
