@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sob-website/static/css/main.7a91a0e7.css",
-    "main.js": "/sob-website/static/js/main.87cdc460.js",
+    "main.js": "/sob-website/static/js/main.8be5b516.js",
     "static/js/787.5ad5c120.chunk.js": "/sob-website/static/js/787.5ad5c120.chunk.js",
     "static/media/sobsubaru.gif": "/sob-website/static/media/sobsubaru.771463c157b2fa666d73.gif",
     "static/media/logo.png": "/sob-website/static/media/logo.b1a51a3cde015a4c3e60.png",
     "index.html": "/sob-website/index.html",
     "static/media/menu.svg": "/sob-website/static/media/menu.f8235882574e17fb850f4c89f02d8fe3.svg",
     "main.7a91a0e7.css.map": "/sob-website/static/css/main.7a91a0e7.css.map",
-    "main.87cdc460.js.map": "/sob-website/static/js/main.87cdc460.js.map",
+    "main.8be5b516.js.map": "/sob-website/static/js/main.8be5b516.js.map",
     "787.5ad5c120.chunk.js.map": "/sob-website/static/js/787.5ad5c120.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a91a0e7.css",
-    "static/js/main.87cdc460.js"
+    "static/js/main.8be5b516.js"
   ]
 }
